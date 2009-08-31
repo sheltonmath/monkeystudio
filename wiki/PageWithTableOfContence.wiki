@@ -1,5 +1,5 @@
 #summary One-sentence summary of this page.
-<wiki:toc max_depth="2" /> 
+<wiki:toc max_depth="3" /> 
 = Introduction =
 
 Add your content here.
