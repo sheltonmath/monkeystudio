@@ -16,5 +16,6 @@ WikiWordLink
 
 ElseOneLink
 
+PageWithTOC
 
 And some other stuff
