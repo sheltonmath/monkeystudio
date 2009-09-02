@@ -3,7 +3,7 @@
 = What's Monkey Studio IDE ? =
 
 Monkey Studio IDE^(1)^ is an open source^(2)^ developing & programming IDE that's based on the Qt^(R)(3)^ GUI^(4)^ toolkit.<br />
-It's 
+It's a new IDE trend that is wanted to be the new ship-flag for the IDEs, thus, we've chosen this 'SOMETHING' --the way IDEs should be<br />
 
 (1): Integrated Developing Environment.<br />
 (2): open source is an application of the free software theory.<br />
@@ -11,7 +11,7 @@ It's
 (4): Graphical User Interface.<br />
 
 
-= Details =
+= User Manual Reference =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
