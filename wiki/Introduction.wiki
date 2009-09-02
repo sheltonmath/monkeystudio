@@ -1,0 +1,19 @@
+#summary the introduction page
+
+= What's Monkey Studio IDE ? =
+
+Monkey Studio IDE(1) is an open source(2) developing & programming IDE that's based on the Qt(R)(3) GUI(4) toolkit.
+It's 
+
+(1): Integrated Developing Environment.
+(2): open source is an application of the free software theory.
+(3): Qt is a registered trademark for Nokia(R).
+(4): Graphical User Interface.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
