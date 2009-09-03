@@ -13,7 +13,10 @@ It's a new IDE trend that is wanted to be the new ship-flag for the IDEs, thus, 
 
 = User Manual Reference =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+This user manual is written in a way to help you get the right piece of information when you need it, but, to help yourself get it the needed information in less time, you should take care of these points:<br />
+ * use the right name of what you are searching for.
+ * check the attached images in the manual pages for quick understanding.
+ * take care of these labels:
+  * *tip*: give you important tips.
+  * *developer tip*: gives the developer some needed tips
+  * *warning*: read it carefully, because it maybe so important for you.
