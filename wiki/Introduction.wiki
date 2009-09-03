@@ -7,7 +7,7 @@ It's a new IDE trend that is wanted to be the new ship-flag for the IDEs, thus, 
 
 (1): Integrated Developing Environment.<br />
 (2): open source is an application of the free software theory.<br />
-(3): Qt is a registered trademark for Nokia(R).<br />
+(3): Qt is a registered trademark for Nokia^(R)^.<br />
 (4): Graphical User Interface.<br />
 
 
