@@ -7,6 +7,6 @@ IDE is a shortcut for Integrated Developing Environment, in other words, it prov
 the next image shows the main parts of the MkS^(3)^ IDE:<br />
 
 --------------------------------------------------------------------------------------------
-(1): we support C, Objective C, C++, Python & PHP till the moment.
-(2): for C, Objective C & C++ only till the moment.
-(3): MonkeyStudio
+(1): we support C, Objective C, C++, Python & PHP till the moment.<br />
+(2): for C, Objective C & C++ only till the moment.<br />
+(3): MonkeyStudio<br />
