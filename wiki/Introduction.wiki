@@ -5,12 +5,6 @@
 Monkey Studio IDE^(1)^ is an open source^(2)^ developing & programming IDE that's based on the Qt^(R)(3)^ GUI^(4)^ toolkit.<br />
 It's a new IDE trend that is wanted to be the new ship-flag for the IDEs, thus, we've chosen this slogan --the way IDEs should be<br />
 
-(1): Integrated Developing Environment.<br />
-(2): open source is an application of the free software theory.<br />
-(3): Qt is a registered trademark for Nokia^(R)^.<br />
-(4): Graphical User Interface.<br />
-
-
 = User Manual Reference =
 
 This user manual is written in a way to help you get the right piece of information when you need it, but, to help yourself get it the needed information in less time, you should take care of these points:<br />
@@ -20,3 +14,9 @@ This user manual is written in a way to help you get the right piece of informat
   * *tip*: give you important tips.
   * *developer tip*: gives the developer some needed tips
   * *warning*: read it carefully, because it maybe so important for you.
+
+--------------------------------------------------------------------------------------------
+(1): Integrated Developing Environment.<br />
+(2): open source is an application of the free software theory.<br />
+(3): Qt is a registered trademark for Nokia^(R)^.<br />
+(4): Graphical User Interface.<br />
