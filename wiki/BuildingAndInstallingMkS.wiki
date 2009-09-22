@@ -23,6 +23,26 @@ The other way to get the source code, & this is what we like you to do, is to ge
 SVN repository is almost daily modified, thus, it will include the last updates & bugfixes which could be found at the packages which aren't daily modified.<br />
 For standard user, we recommend the monthly revised revision which can be found at the trunk of the repository. This revision is revised twice, so, it will be in almost bugs-free revision. Again, for more information about SVN, please, follow this link.<br />
 
+== Get MkS dependencies ==
+This step varies from one operating System to another. here, we won't talk a lot, because IT VARIES.<br />
+
+=== Operating systems instructions ===
+==== Gnu/Linux^(R)^ operating systems ====
+For Gnu/Linux^(R)^, in standard, you need to build each dependency alone, then you'll be able to build MkS in its latest version, but as long as you are using a Gnu/Linux distro^(8)^ that comes with a packages manager you'll just need to use that packages manager to install all needed packages as they are very common, & they should be available in all Gnu/Linux different distros repositories.<br />
+
+==== Apple^(R)^ Mac^(R)^ OS X operating systems ====
+Most of the needed dependencies can be found as binaries for Mac^(R)^ OS X in the internet, especially at SourceForge. --just search for them.
+
+==== Microsoft^(R)^ Windows^(R)^ operating systems ====
+Again: Most of the needed dependencies can be found as binaries for Windows^(R)^ in the internet, especially at SourceForge. --again, just search for them.
+
+=== Dependencies list ===
+this is our list of dependencies:
+ * Qt V4.4 at least.
+ * QScintilla.
+ * PyQt4^(9)(10)^.
+ * PHP-Qt^(11)^.
+
 ------------------------------------------------------------------------------------------
 (1): MonkeyStudio.<br />
 (2): Integrated Developing Environment.<br />
@@ -31,3 +51,7 @@ For standard user, we recommend the monthly revised revision which can be found 
 (5): http://code.google.com/p/monkeystudio<br />
 (6): http://www.monkeystudio.org<br />
 (7): Subversion, a version control system. http://subversion.tigris.org<br />
+(8): Distribution, a Gnu/Linux modified operating system model.<br/>
+(9): Optional dependency, you'll need it if you'll use MkS to write PyQt projects.<br />
+(10): The version should be as the same as Qt version.<br />
+(11): Optional dependency, you'll need it if you'll use MkS to write PHP-Qt projects.<br />
