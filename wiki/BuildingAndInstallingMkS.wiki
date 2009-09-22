@@ -28,7 +28,7 @@ This step varies from one operating System to another. here, we won't talk a lot
 
 === Operating systems instructions ===
 ==== Gnu/Linux^(R)^ operating systems ====
-For Gnu/Linux^(R)^, in standard, you need to build each dependency alone, then you'll be able to build MkS in its latest version, but as long as you are using a Gnu/Linux distro^(8)^ that comes with a packages manager you'll just need to use that packages manager to install all needed packages as they are very common, & they should be available in all Gnu/Linux different distros repositories.<br />
+For Gnu/Linux^(R)^, in standard, you need to build each dependency alone, then you'll be able to build MkS in its latest version, but as long as you are using a Gnu/Linux^(R)^ distro^(8)^ that comes with a packages manager you'll just need to use that packages manager to install all needed packages as they are very common, & they should be available in all Gnu/Linux different distros repositories.<br />
 
 ==== Apple^(R)^ Mac^(R)^ OS X operating systems ====
 Most of the needed dependencies can be found as binaries for Mac^(R)^ OS X in the internet, especially at SourceForge. --just search for them.
