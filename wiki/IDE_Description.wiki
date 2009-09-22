@@ -5,7 +5,7 @@ IDE is a shortcut for Integrated Developing Environment, in other words, it prov
 
 = IDE Main Parts =
 the next image shows the main parts of the MkS^(3)^ IDE:<br />
-
+http://monkeystudio.googlecode.com/svn/wiki/images/snapshot1.png
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
 (2): for C, Objective C & C++ only till the moment.<br />
