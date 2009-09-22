@@ -23,9 +23,6 @@ The other way to get the source code, & this is what we like you to do, is to ge
 SVN repository is almost daily modified, thus, it will include the last updates & bugfixes which could be found at the packages which aren't daily modified.<br />
 For standard user, we recommend the monthly revised revision which can be found at the trunk of the repository. This revision is revised twice, so, it will be in almost bugs-free revision. Again, for more information about SVN, please, follow this link.<br />
 
-http://monkeystudio.googlecode.com/svn/wiki/images/snapshot1.png
-http://monkeystudio.googlecode.com/svn/wiki/images/blue-digital-waves-wallpapers_12718_1280x800.jpg
-
 ------------------------------------------------------------------------------------------
-(1): MonkeyStudio
-(2): Integrated Developing Environment
+(1): MonkeyStudio<br />
+(2): Integrated Developing Environment<br />
