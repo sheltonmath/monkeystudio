@@ -1,7 +1,7 @@
 #summary Users documentation Table of Contents
 
-* [Introduction]
-* [First project]
+ * [Introduction]
+ * [First project]
   * Makefile project
   * Qt project
   * Python and !PyQt project
