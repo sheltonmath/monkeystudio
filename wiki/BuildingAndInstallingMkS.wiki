@@ -12,7 +12,7 @@ let's have a quick prevision about the building process:
  * enjoy MkS!!
 
 == Get the source code ==
-In fact, the MkS source code is evreywhere, you can find it at the biggest source code place --SourceForge^(3)(4)^, you can find it at Google Code^(5)^ & you can find it at !MonkeyStudio official website^(6)^.<br />
+In fact, the MkS source code is evreywhere, you can find it at the biggest source code place -- !SourceForge^(3)(4)^, you can find it at Google Code^(5)^ & you can find it at !MonkeyStudio official website^(6)^.<br />
 While all this places contains the different versions, we advise you to visit MkS official website to get the last news about the latest versions & the links from Google Code to download them.<br />
 For instance, our last version is: 1.8.4.0b1, & you can download it from the next link:<br />
 http://code.google.com/p/monkeystudio/downloads/detail?name=mks_1.8.4.0b1-svn3231-src.tar.gz<br />
