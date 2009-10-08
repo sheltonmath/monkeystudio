@@ -6,7 +6,30 @@ IDE is a shortcut for Integrated Developing Environment, in other words, it prov
 = IDE Main Parts =
 the next image shows the main parts of the MkS^(3)^ IDE:<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/snapshot1.png]
+
+== Menubar ==
+The menubar of the MkS IDE handles the standard IDE menus & submenus --it's another menubar. here's a quick description of each menu & its items:<br />
+=== File Menu ===
+File menu contains the standard file actions, such as, opening, closing & saving actions. Here's a reference for this menu:<br />
+ * New: creates a new file, the file type is then selected as of the file types dialog.
+ * New Text File: creates a new plain text file.
+ * Open: opens a file that its type is supported by MkS.
+ * Recent: lists the last opened files.
+   * clear: clears recent files list.
+ * Session: contains the session management actions.
+   * Save: saves the current session, including its opened projects files & GUI settings.
+   * Restore: restores a pre-saved session.
+ * Save: contains the file saving actions.
+   * Save: saves the current file.
+   * Save All: saves all opened files in the current session.
+ * Close: contains the file closing actions.
+   * Close: closes the current file, if not saved, then a save message is shown.
+   * Close All: closes all the opened files, if a file is not saved, then a save message is shown.
+ * Save as Backup: saves a backup copy of the current file.
+ * Quick Print: prints the current file with the default used settings.
+ * Print: shows the printing dialoge.
+ * Quit: quits the MkS IDE.
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
 (2): for C, Objective C & C++ only till the moment.<br />
-(3): !MonkeyStudio
+(3): MonkeyStudio
