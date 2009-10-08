@@ -9,6 +9,7 @@ the next image shows the main parts of the MkS^(3)^ IDE:<br />
 
 == Menubar ==
 The menubar of the MkS IDE handles the standard IDE menus & submenus --it's another menubar. here's a quick description of each menu & its items:<br />
+
 === File Menu ===
 File menu contains the standard file actions, such as, opening, closing & saving actions. Here's a reference for this menu:<br />
  * New: creates a new file, the file type is then selected as of the file types dialog.
@@ -29,6 +30,27 @@ File menu contains the standard file actions, such as, opening, closing & saving
  * Quick Print: prints the current file with the default used settings.
  * Print: shows the printing dialoge.
  * Quit: quits the MkS IDE.
+
+=== Edit Menu ===
+Edit menu contains the code & IDE editing actions. the menu reference is:<br />
+ * Settings: shows the IDE settings dialog.
+ * Shortcuts Editor: shows the shortcuts editor dialog.
+ * Translations: changes the current IDE language.
+ * Undo: undoes the last action.
+ * Redo: redoes the last undid action.
+ * Copy: copies the selected part of the text.
+ * Cut: cuts the selected part of the text.
+ * Paste: pastes the text handled in the clipboard.
+ * Search and Replace: contains the text search & replace actions.
+   * Search in the file: search the current file for a matched text.
+   * Replace in the file: replaces the matched text from the current file with the replace value.
+   * Search in the folder: search the current folder files for a matched text.
+   * Replace in the folder: replaces the matched text from the folder files with the current replace value.
+ * Go To: goto a specified line.
+ * All Commands: ...
+ * Bookmarks: contains the bookmarks list.
+ * Expand the Appriviation: expands the used appriviations in the code.
+ * Prepare APIs: use the current project API to extend to create a new API.
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
 (2): for C, Objective C & C++ only till the moment.<br />
