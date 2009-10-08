@@ -55,8 +55,25 @@ Edit menu contains the code & IDE editing actions. the menu reference is:<br />
 == Toolbar ==
 This customizable bar provides you a good way to have more time by setting the frequently used actions in that bar.
 
-== Sidebar ==
-In MkS IDE, there's two sidebars. These sidebars handles the floating 
+== Dockbar ==
+In MkS IDE, there's a placeholder for 4 dockbar placeholders. These placeholders can handle a set of float panels to show the MkS IDE GUI as you wish. In default, 3 dockbar placeholders are only enabled which are:
+ * Left Dockbar: which handles:
+   * Projects: this panel shows the projects list that are created or opened with MkS IDE.
+   * File Browser: a simple file browser.
+   * Widget Box: handles the Qt Widgets for using them when designing the GUIs.
+ * Bottom Dockbar: which handles:
+   * Build Steps: if you use MkS to build your projects, this panel will return the build log.
+   * Output: if you run your project directly from MkS IDE you'll find here the executing output.
+   * Commands: this panel logs the log of each command entered in the output panel.
+   * Search and Replace: Quick Search and Replace actions.
+   * Action Editor: this panel shows the actions used in the Qt GUI.
+   * Signal/Slot Editor: this panel shows the signals & slots used in the Qt GUI.
+   * Resources Editor: ...
+ * Rigth Dockbar: which handles:
+   * Class Browser: this lists the classes & methods of the current project.
+   * Qt Assistant: a Qt help panel.
+   * Object Inspector: lists the objects of the current project.
+   * Property Editor: handles Qt GUI objects properties editor.
 
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
