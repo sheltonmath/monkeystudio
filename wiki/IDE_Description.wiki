@@ -51,6 +51,11 @@ Edit menu contains the code & IDE editing actions. the menu reference is:<br />
  * Bookmarks: contains the bookmarks list.
  * Expand the Appriviation: expands the used appriviations in the code.
  * Prepare APIs: use the current project API to extend to create a new API.
+
+== Toolbar ==
+This customizable bar provides you a good way to have more time by setting the frequently used actions in that bar.
+
+== Sidebar ==
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
 (2): for C, Objective C & C++ only till the moment.<br />
