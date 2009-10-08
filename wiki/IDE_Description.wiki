@@ -56,6 +56,8 @@ Edit menu contains the code & IDE editing actions. the menu reference is:<br />
 This customizable bar provides you a good way to have more time by setting the frequently used actions in that bar.
 
 == Sidebar ==
+In MkS IDE, there's two sidebars. These sidebars handles the floating 
+
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
 (2): for C, Objective C & C++ only till the moment.<br />
