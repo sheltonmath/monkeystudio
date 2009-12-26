@@ -72,6 +72,29 @@ Project menu contains all the actions needed to take control of a project, it co
  * Recent: lists the last used projects.
    * clear: clears recent projects list.
 
+=== Tools Menu ===
+Tools menu is the menu which handles the tools feature of MkS. It contains:<br />
+ * Edit User Tools: opens the user tools dialog to edit the user tools.
+ * Edit Desktop Tools: opens the desktop tools dialog to edit the desktop tools.
+ * User Tools: lists the user tools.
+ * lists the desktop tools.
+to know more about the tools feature, please refer here.
+
+=== Plugins Menu ===
+Plugins menu handles the plugins extra actions. This menu contains:<br />
+ * Manage: the root menu of managing plugins.
+   * Manage Using Dialog: opens the plugins managing dialog.
+
+=== Window Menu ===
+Window menu contains extra actions to configure the GUI windows view. It contains:<br />
+ * Single Document Interface: this action will set the windows view mode to the tabbing Interface.
+ * Multiple Document Interface: this action will set the windows view mode to the classical windows Interface.
+ * Top Level Windows Interface: this action will separate the windows from the IDE.
+ * Cascade: cascades all windows.
+ * Tile: tiles all windows.
+ * Minimize: minimizes all windows.
+ * Restore: restores all minimized windows.
+
 == Toolbar ==
 This customizable bar provides you a good way to have more time by setting the frequently used actions in that bar.
 
