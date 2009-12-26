@@ -98,4 +98,5 @@ In MkS IDE, there's a placeholder for 4 dockbar placeholders. These placeholders
 --------------------------------------------------------------------------------------------
 (1): we support C, Objective C, C++, Python & PHP till the moment.<br />
 (2): for C, Objective C & C++ only till the moment.<br />
-(3): MonkeyStudio
+(3): MonkeyStudio.<br/>
+(4): it's a an alternative way to access the action from keyboard
