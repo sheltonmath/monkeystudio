@@ -77,6 +77,7 @@ This customizable bar provides you a good way to have more time by setting the f
 
 == Dockbar ==
 In MkS IDE, there's a placeholder for 4 dockbar placeholders. These placeholders can handle a set of float panels to show the MkS IDE GUI as you wish. In default, 3 dockbar placeholders are only enabled which are:
+ * Top Dockbar: in default it doesn't handle any widget or panel, but you can let it handle some of them.
  * Left Dockbar: which handles:
    * Projects: this panel shows the projects list that are created or opened with MkS IDE.
    * File Browser: a simple file browser.
