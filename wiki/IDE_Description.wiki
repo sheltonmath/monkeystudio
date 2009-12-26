@@ -52,6 +52,26 @@ Edit menu contains the code & IDE editing actions. the menu reference is:<br />
  * Expand the Appriviation: expands the used appriviations in the code.
  * Prepare APIs: use the current project API to extend to create a new API.
 
+=== View Menu ===
+View menu contains the actions for changing the current view of the IDE. the menu reference is:<br />
+ * style: contains a list of GUI styles to choose between them.
+ * Next Tab: move the activity to the next opened tab.
+ * Previous Tab: move the activity to the previous tab.
+ * Set Focus to Editor: whenever your cursor is focusing outside the editor, you can use this action, or its shortcut^(4)^ (Ctrl + Return) to set the focus to the code editor.
+ * Show Next Error: if you are debugging a code, this will move to the next error.
+
+=== Project Menu ===
+Project menu contains all the actions needed to take control of a project, it contains:<br />
+ * New Project: opens the new project dialog.
+ * Open Project: opens the dialog to open a pre-created project.
+ * Close Current Project: closes the current project & all of its resources.
+ * Close all Projects: closes all opened projects & all of the opened resources.
+ * Edit Current Project: opens the dialog of the project properties.
+ * Add Existing Files to Current Project: opens the open dialog to choose files to add to the project.
+ * Remove Files from Current Project: removes the selected files from the project resources list.
+ * Recent: lists the last used projects.
+   * clear: clears recent projects list.
+
 == Toolbar ==
 This customizable bar provides you a good way to have more time by setting the frequently used actions in that bar.
 
