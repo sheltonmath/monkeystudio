@@ -96,7 +96,7 @@ Window menu contains extra actions to configure the GUI windows view. It contain
  * Restore: restores all minimized windows.
 
 === Docks Menu ===
-Docks menu contains a set of dockable panels to show or hide them. to know more about docking in MkS continue to Dockbar [IDE_Description#Dockbar].<br />
+Docks menu contains a set of dockable panels to show or hide them. to know more about docking in MkS continue to Dockbar [#Dockbar].<br />
 
 === Help Menu ===
 The classical help menu, which contains:<br/>
