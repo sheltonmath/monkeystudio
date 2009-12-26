@@ -95,6 +95,14 @@ Window menu contains extra actions to configure the GUI windows view. It contain
  * Minimize: minimizes all windows.
  * Restore: restores all minimized windows.
 
+=== Docks Menu ===
+Docks menu contains a set of dockable panels to show or hide them. to know more about docking in MkS continue to Dockbar.<br />
+
+=== Help Menu ===
+The classical help menu, which contains:<br/>
+ * About: opens the about dialog which contains semi-detailed information about the MkS.
+ * About Qt: opens a dialog containing basic information about Qt GUI toolkit.
+
 == Toolbar ==
 This customizable bar provides you a good way to have more time by setting the frequently used actions in that bar.
 
