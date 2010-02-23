@@ -25,4 +25,4 @@ The plugin has some settings that can be customized by the user:<br />
 
 The qCtagsSense framework is released as the same license as [http://monkeystudio.org MkS].<br />
 Our custom ctags fork can be checked out from our [http://monkeystudio.org/Svn svn] and is released as same license as qCtagsSense.<br />
-Ctags is a GPL project hosted at: http://ctags.sourceforge.net
+Ctags is a GPL project hosted at http://ctags.sourceforge.net
