@@ -22,7 +22,7 @@
  # [Basic Basic Plugins]
   * [AStyle Artistic Style Formater]
   * [ClassBrowser Class Browser]
-  * [Ctags2Api Ctags 2 Api]
+  * [Ctags2Api Api File Generator]
   * [FileBrowser File Browser]
   * [FileWatcher File Watcher]
   * [MessageBox Message Box]
