@@ -1,4 +1,5 @@
 #summary the introduction page
+#labels Featured,Users-Documentation
 
 = What's Monkey Studio IDE ? =
 
