@@ -1,5 +1,5 @@
 #summary Users documentation Table of Contents
-#labels Featured,Users-Documentation
+#labels Users-Documentation
 
  # [Introduction]
  # [FirstProject First project]
