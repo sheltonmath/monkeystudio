@@ -1,5 +1,5 @@
 #summary ClassBrowser plugin help
-#labels ctags,classbrowser
+#labels ctags,classbrowser,Users-Documentation
 
 = Introduction =
 
