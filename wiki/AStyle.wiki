@@ -1,5 +1,5 @@
 #summary AStyle plugin help
-#labels astyle
+#labels astyle,Users-Documentation
 
 = Introduction =
 
