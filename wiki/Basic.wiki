@@ -1,7 +1,7 @@
 #summary Basic plugins help
 #labels Users-Documentation,basic
 
-Basic plugins are plugin that add extra functionalities to MkS.<br />
+Basic plugins are plugins that add extra functionalities to MkS.<br />
 It can be things like add support for:
 
  * Tools
