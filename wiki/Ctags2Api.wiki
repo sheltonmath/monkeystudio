@@ -22,7 +22,7 @@ From that you have some things to fill like;
   * A: Keep members ending with A.
   * W: Keep members ending with W.
 
-Once all is correctly filled, just click the Ok button and wait ;)
+Once all is correctly filled, just click the Ok button and wait ;)<br />
 After that you have to update the MkS settings through "*Edit > Settings > Source API*" and add the generated api file to the correct lexer.
 
 You can download ctags on the official homepage at http://ctags.sourceforge.net.
