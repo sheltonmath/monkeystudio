@@ -9,7 +9,7 @@ It's based on Ctags for extracting tags then converted to plain text api file.
 = Details =
 
 You have to have the exuberant ctags binary available on your system for the plugin to works.<br />
-To create an api file, trigger the "Edit > Api File Generator" action.<br />
+To create an api file, trigger the "*Edit > Api File Generator*" action.<br />
 From that you have some things to fill like;
 
  * ctags binary: The ctags binary used to generate a tag file.
