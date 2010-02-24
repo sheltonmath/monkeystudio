@@ -1,5 +1,5 @@
+#summary IDE Description page.
 #labels Users-Documentation
-#IDE Description page.
 
 = IDE Features =
 IDE is a shortcut for Integrated Developing Environment, in other words, it provides more than script editor for writing the script.<br /> In our IDE, MonkeyStudio IDE, we provide different languages support^(1)^, script debugging^(2)^, syntax highlighting, building tools, project interfaces, built-in IRC client & so much more. discover our IDE ;)<br />
