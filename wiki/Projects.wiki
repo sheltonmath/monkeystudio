@@ -4,12 +4,35 @@
 = Introduction =
 
 Projects are an easy to use organizing system. It lets you to create a typed or non-typed project, so that, you'll be able to reach everything related to your project type.
-Projects let you have your all your files related to the project in one place, plus that, the MkS multi-tapped editing, will make it easier for editing more files related to the same project in the same time.
+Projects let you have your all your files related to the project in one place, plus that, the MkS^(1)^ multi-tapped editing, will make it easier for editing more files related to the same project in the same time.
 
 
-= Details =
+= Projects Types =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+MkS supports a lot of projects types by default. Besides, the non-typed project there are:
+ * C/C++ Projects:
+   * QMake C/C++ Application
+   * QMake C/C++ Dll
+   * QMake C/C++ Static Lib
+   * QMake Qt Console
+   * QMake Qt Dll
+   * QMake Qt GUI
+   * QMake Qt Plugin
+   * QMake Qt Static Lib
+   * QMake Solution
+   * XUP^(2)^ Project
+ * Objective C++ Projects:
+   * XUP Project
+ * Python Projects:
+   * PyQt^(3)^ Console
+   * PyQt GUI
+   * XUP Project
+ * PHP projects:
+   * PHP-Qt^(4)^ Console
+   * PHP-Qt GUI
+   * XUP Project
+------------------------------------------------------------------------------------------
+(1): MonkeyStudio
+(2): Extensible User Interface Protocol
+(3): the Python binding for Qt
+(4): the PHP binding for Qt
