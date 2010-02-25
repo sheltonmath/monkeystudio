@@ -2,6 +2,7 @@
 #labels Users-Documentation
 
  # [Introduction]
+ # [IDE_Description IDE Description]
  # [Projects Projects]
   * [MakefileProject Makefile project]
   * [QtProject Qt project]
