@@ -30,7 +30,7 @@
   * [MkSShell MkS Shell]
   * [ProjectHeaders Project Headers]
   * [RegExpEditor Regular Expression Editor]
-  * [Search And Replace]
+  * [SearchAndReplace Search And Replace]
   * [Tools Tools]
   * [UpdateChecker Update Checker]
  # [Child Child Plugins]
