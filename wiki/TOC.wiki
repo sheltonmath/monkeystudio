@@ -2,7 +2,7 @@
 #labels Users-Documentation
 
  # [Introduction]
- # [Projects First project]
+ # [Projects Projects]
   * [MakefileProject Makefile project]
   * [QtProject Qt project]
   * [PythonProject Python and PyQt project]
