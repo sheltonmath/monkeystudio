@@ -14,25 +14,26 @@ MkS supports a lot of projects types by default. Besides, the non-typed project 
    * QMake C/C++ Application
    * QMake C/C++ Dll
    * QMake C/C++ Static Lib
-   * QMake Qt Console
-   * QMake Qt Dll
-   * QMake Qt GUI
-   * QMake Qt Plugin
-   * QMake Qt Static Lib
+   * QMake Qt^(R)(2)^ Console
+   * QMake Qt^(R)^ Dll
+   * QMake Qt^(R)^ GUI
+   * QMake Qt^(R)^ Plugin
+   * QMake Qt^(R)^ Static Lib
    * QMake Solution
-   * XUP^(2)^ Project
+   * XUP^(3)^ Project
  * Objective C++ Projects:
    * XUP Project
  * Python Projects:
-   * PyQt^(3)^ Console
+   * PyQt^(4)^ Console
    * PyQt GUI
    * XUP Project
  * PHP projects:
-   * PHP-Qt^(4)^ Console
+   * PHP-Qt^(5)^ Console
    * PHP-Qt GUI
    * XUP Project
 ------------------------------------------------------------------------------------------
 (1): MonkeyStudio<br />
-(2): Extensible User Interface Protocol<br />
-(3): the Python binding for Qt<br />
-(4): the PHP binding for Qt<br />
+(2): Qt is a registered trademark for Nokia^(R)^<br />
+(3): Extensible User Interface Protocol<br />
+(4): the Python binding for Qt<br />
+(5): the PHP binding for Qt<br />
