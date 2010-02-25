@@ -1,0 +1,17 @@
+#summary PyQt Project tutorial & tips
+#labels Users-Documentation
+
+= Introduction =
+
+Python is a very popular interpreting programming language, it's developed to be an easy language with the features of the high level programming languages.<br />
+As the python is getting more popular, a lot of the libraries that are designed originally for C & C++ had been ported to Python through binding libraries. One of these libraries is the PyQt which is the Python bindings for Qt. &, as MkS^(1)^ supports Python language, it supports PyQt.
+
+= PyQt notes =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+--------------------------------------------------------------------------------------------
+(1): MonkeyStudio
