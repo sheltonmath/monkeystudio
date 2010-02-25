@@ -32,7 +32,7 @@ MkS supports a lot of projects types by default. Besides, the non-typed project 
    * PHP-Qt GUI
    * XUP Project
 ------------------------------------------------------------------------------------------
-(1): MonkeyStudio
-(2): Extensible User Interface Protocol
-(3): the Python binding for Qt
-(4): the PHP binding for Qt
+(1): MonkeyStudio<br />
+(2): Extensible User Interface Protocol<br />
+(3): the Python binding for Qt<br />
+(4): the PHP binding for Qt<br />
