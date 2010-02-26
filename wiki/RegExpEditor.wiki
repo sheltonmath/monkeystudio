@@ -1,4 +1,4 @@
-#summary Regular Expression plugin help
+#summary Regular Expression Editor plugin help
 #labels regexp,regular,expression,editor,Users-Documentation
 
 = Introduction =
