@@ -25,4 +25,5 @@ The tools plugin allow add to the menu bar defined commands (User Tools) and sta
  The menu entries can be filtered according to "*Filter Name*" and "*Filter Category*" so it become easy to found entries.<br />
  The right list can be ordered easily so you can add the tools in the menu sorted as you want.<br />
 
-*NOTE*: "*Filter Category*" is only available on *Linux*.
+*NOTE 1*: "*Filter Category*" is only available on *Linux*.<br />
+*NOTE 2*: As there is no concept of "*Menu Entries*" on *Mac OS X* we mimic that by using the installed applications in the */Applications* folder.
