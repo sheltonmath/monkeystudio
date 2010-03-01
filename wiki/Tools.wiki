@@ -19,3 +19,10 @@ The tools plugin allow add to the menu bar defined commands (User Tools) and sta
   The second button on the *File Path* area try to update *Working Path* according to the file path absolute path.
 
 = Desktop Tools =
+
+ You can configure *Desktop Tools* triggering the "*Tools > Edit Desktop Tools*" action.<br />
+ To make menu entries visible, simply move them to the right using a double click on items or selecting them then pressing ">>" button.<br />
+ The menu entries can be filtered according to "*Filter Name*" and "*Filter Category*" so it become easy to found entries.<br />
+ The right list can be ordered easily so you can add the tools in the menu sorted as you want.<br />
+
+*NOTE*: "*Filter Category*" is only available on *Linux*.
