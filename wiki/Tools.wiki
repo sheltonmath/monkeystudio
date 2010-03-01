@@ -3,7 +3,7 @@
 
 = Introduction =
 
-The tools plugin allow add to the menu bar defined commands (User Tools) and start menu entries (Desktop Tools).
+The tools plugin allows you to add to a pre-created menu by the plugin, a set of commands a user can define & a set of external programs, so that the accessibility to the often used tools becomes easier.
 
 = User Tools =
 
