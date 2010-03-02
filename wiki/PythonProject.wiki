@@ -10,5 +10,16 @@ As the python is getting more popular, a lot of the libraries that are designed 
 PyQt is a multi-licensed Python library developed by RiverBank Computing Limited. For any use except for the commercial use, it's licensed under GPLv2. For the commercial use RiverBank computing provides a special-purpose designed commercial license.
 For more information: [http://www.riverbankcomputing.co.uk]
 
+= PyQt Hello World =
+This part is a quick tutorial telling you how the basic things in PyQt are going.
+
+== Setup the MonkeyStudio ==
+The support of Python in MonkeyStudio is done through the [pythonPlugin Python Plugin], thus, you need to verfify that the plugin is enabled at first.<br />
+Goto: Plugins > Interpreter > Python, & check Enabled.
+
+== Create The First Project ==
+Now, you can create & open Python projects. Goto: File > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates MonkeyStudio provide, click on PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: MonkeyStudio PyQt tutorial. Change the other options to fit your needs & click create.<br />
+[http://monkeystudio.googlecode.com/svn/wiki/images/snapshot2.png]
+
 --------------------------------------------------------------------------------------------
 (1): MonkeyStudio
