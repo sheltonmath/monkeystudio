@@ -24,10 +24,93 @@ Goto: Plugins > Interpreter > Python, & check Enabled.
 Now, you can create & open Python projects. Goto: File > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates MonkeyStudio provide, click on PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: MonkeyStudio PyQt tutorial. Change the other options to fit your needs & click create.<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/snapshot2.png]
 
-== Working with the Project ==
+== Discovering the Project ==
 Once you click create, the MkS will show you your created project. The projects Dockbar will show the project & its elements classified into two types: Qt Forms & Python Files. Qt Forms are the GUI forms you want to code, while, the Python Files are the codes. Expand Qt Forms & double click on mainwindow.ui, the Qt Forms designer will be shown. Activate the Widget Box dockbar to show the Qt GUI objects list & activate the Property Editor to show the objects properties bar. Change the windowTitle properety to: Hello World! to change the window's title.<br />
-Now, put some objects to get some fun. Do something like this:
+Now, put some objects to get some fun. Do something like this:<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/snapshot3.png]
+If you want to see how your form is displayed to the user, simply, click on 'Preview in..' button on the designer toolbar, & choose Preview in Oxygen or any other style.<br />
+Now, we had the GUI ready for the coding. Return to the Project dockbar & double click on main.py. This will show the contents of the file. Lines description are as following:<br />
+{{{
+import sys
+
+# import PyQt4 QtCore and QtGui modules
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+}}}
+This part of the code imports the needed libraries to be able to start the GUI.
+
+{{{
+from mainwindow import MainWindow
+}}}
+This part imports the GUI windows & forms. In this case we are importing the Windows Named MainWindow written in file mainwindow[.ui].
+
+{{{
+if __name__ == '__main__':
+}}}
+This conditional syntax verifies that the program is a standalone & had not been ran as a subprocess.
+
+{{{
+    # create application
+    app = QApplication(sys.argv)
+    app.setApplicationName('MonkeyStudio PyQt tutorial')
+}}}
+This part prepares the Qt to show the windows.
+
+{{{
+    # create widget
+    w = MainWindow()
+    w.setWindowTitle('MonkeyStudio PyQt tutorial')
+    w.show()
+}}}
+This part prepares the window we imported before, & shows it.
+
+{{{
+    # connection
+    QObject.connect(app, SIGNAL('lastWindowClosed()'), app, SLOT('quit()'))
+}}}
+This part connects between the lastWindowClosed() signal & the quit() slot.
+
+{{{
+    # execute application
+    sys.exit(app.exec_())
+}}}
+This part ends the program after executing the Qt application.<br />
+Mostly, the main.py file is a standard file, we don't have a lot of things to do with it, because, the most hard work is in the mainwindow.py, which is the coding part of the form we created before. Now, open the mainwindow.py. Lines description are as following:<br />
+
+{{{
+from PyQt4 import uic
+
+(Ui_MainWindow, QMainWindow) = uic.loadUiType('mainwindow.ui')
+}}}
+This imports the uic module from the PyQt library. This module is responsible from converting the UI file to something the PyQt can interact with.
+
+{{{
+class MainWindow (QMainWindow):
+    """MainWindow inherits QMainWindow"""
+}}}
+This is the class block. Each form (or window) code part is a class which has functions.
+
+{{{
+    def __init__ (self, parent = None):
+        QMainWindow.__init__(self, parent)
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
+}}}
+This is the Class __init__ function. It prepares the window.
+
+{{{
+    def __del__ (self):
+        self.ui = None
+}}}
+This is the Class __del__ function. It removes the window after closing it.<br />
+This class is what exactly we will work on, because, in this class we will write how the window's Signals are being interpreted.
+
+== CODING!!! ==
+Before you start check [signalAndSlot Signals & Slots] page to know more about signals & slots.<br />
+Let's start with an easy thing. When we click on Continue button we want the form to close. To do so, we need to link the click() signal with the quit() slot, by, modifying the __init__ function to be:
+{{{
+
+}}}
 
 --------------------------------------------------------------------------------------------
 (1): MonkeyStudio
