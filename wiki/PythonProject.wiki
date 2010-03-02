@@ -13,13 +13,21 @@ For more information: [http://www.riverbankcomputing.co.uk]
 = PyQt Hello World =
 This part is a quick tutorial telling you how the basic things in PyQt are going.
 
-== Setup the MonkeyStudio ==
+== Notes ==
+This tutorial expects that you have the basic knowledge in Python at least. If you don't know how the Python code looks like don't continue.
+
+== Setup MonkeyStudio ==
 The support of Python in MonkeyStudio is done through the [pythonPlugin Python Plugin], thus, you need to verfify that the plugin is enabled at first.<br />
 Goto: Plugins > Interpreter > Python, & check Enabled.
 
 == Create The First Project ==
 Now, you can create & open Python projects. Goto: File > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates MonkeyStudio provide, click on PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: MonkeyStudio PyQt tutorial. Change the other options to fit your needs & click create.<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/snapshot2.png]
+
+== Working with the Project ==
+Once you click create, the MkS will show you your created project. The projects Dockbar will show the project & its elements classified into two types: Qt Forms & Python Files. Qt Forms are the GUI forms you want to code, while, the Python Files are the codes. Expand Qt Forms & double click on mainwindow.ui, the Qt Forms designer will be shown. Activate the Widget Box dockbar to show the Qt GUI objects list & activate the Property Editor to show the objects properties bar. Change the windowTitle properety to: Hello World! to change the window's title.<br />
+Now, put some objects to get some fun. Do something like this:
+[http://monkeystudio.googlecode.com/svn/wiki/images/snapshot3.png]
 
 --------------------------------------------------------------------------------------------
 (1): MonkeyStudio
