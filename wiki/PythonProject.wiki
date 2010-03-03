@@ -1,4 +1,4 @@
-#summary !PyQt Project tutorial & tips
+#summary PyQt Project tutorial & tips
 #labels Users-Documentation
 
 = Introduction =
