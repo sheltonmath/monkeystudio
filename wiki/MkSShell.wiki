@@ -11,9 +11,23 @@ The MkS Shell Interpreter is a command processing class that allow us to execute
 The MkS Shell plugin allow you to execute commands directly by hand.<br />
 It's more a debugging / dev tool than something you may daily need.<br />
 
-Built-in commands:
+== Short list of builtin commands: ==
 
- * *echo*: Print back the passed parameters to the output.<br />
+ * [MkSShell#echo echo]: Print back the passed parameters to the output.<br />
+
+== Commands description: ==
+----
+=== echo ===
+NAME
+       echo - display a line of text
+
+SYNOPSIS
+       echo [SHORT-OPTION]... [STRING]...
+       echo LONG-OPTION
+
+DESCRIPTION
+       Echo the STRING(s) to standard output.
+----
  * *help*: This will present the list of available commands.
 
 Each command have help that can be query typing: *help `<`command`>`*.<br />
