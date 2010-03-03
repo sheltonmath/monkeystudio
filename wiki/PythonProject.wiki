@@ -21,7 +21,7 @@ The support of Python in !MonkeyStudio is done through the [pythonPlugin Python 
 Goto: Plugins > Interpreter > Python, & check Enabled.
 
 == Create The First Project ==
-Now, you can create & open Python projects. Goto: File > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates !MonkeyStudio provide, click on !PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: !MonkeyStudio !PyQt tutorial. Change the other options to fit your needs & click create.<br />
+Now, you can create & open Python projects. Goto: Project > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates !MonkeyStudio provide, click on !PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: !MonkeyStudio !PyQt tutorial. Change the other options to fit your needs & click create.<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/snapshot2.png]
 
 == Discovering the Project ==
