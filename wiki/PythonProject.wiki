@@ -107,10 +107,18 @@ This class is what exactly we will work on, because, in this class we will write
 
 == CODING!!! ==
 Before you start check [signalAndSlot Signals & Slots] page to know more about signals & slots.<br />
-Let's start with an easy thing. When we click on Continue button we want the form to close. To do so, we need to link the click() signal with the quit() slot, by, modifying the __init__ function to be:
+Let's start with an easy thing. When we click on Continue button we want the console to print something. To do so, we need to connect the click() signal with a slot, by, adding to the end of the __init__ function this line:
 {{{
-
+        self.connect(self.ui.pushButton, SIGNAL('clicked()'), SLOT('click()'))
 }}}
+This function connects the clicked() signal of the pushButton (the name of the button) with the click() slot. The click() slot in is not yet there, so, put this piece of code at the last of the class:
+{{{
+    @pyqtSlot("")
+    def click(self):
+        print "welcome, " + self.ui.lineEdit.text() + "!!"
+}}}
+The first line is a decoration telling the PyQt, that, this is a slot. The second line is the function defining line. The third line is the function body, in it, we put the print command to print greetings for the name written inside the lineEdit object.<br />
+Now, all you need to do is playing with the signals & slots to get started.
 
 --------------------------------------------------------------------------------------------
 (1): MonkeyStudio
