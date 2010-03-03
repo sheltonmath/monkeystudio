@@ -18,14 +18,14 @@ It's more a debugging / dev tool than something you may daily need.<br />
 == Commands description: ==
 ----
 === echo ===
-NAME
+*NAME*
        echo - display a line of text
 
-SYNOPSIS
-       echo [SHORT-OPTION]... [STRING]...
-       echo LONG-OPTION
+*SYNOPSIS*
+       echo `[SHORT-OPTION]... [STRING]...`
+       echo `LONG-OPTION`
 
-DESCRIPTION
+*DESCRIPTION*
        Echo the STRING(s) to standard output.
 ----
  * *help*: This will present the list of available commands.
