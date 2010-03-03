@@ -35,7 +35,7 @@ Usualy *red* output mean something went *wrong*, while something *green* mean so
 
 *DESCRIPTION*
        If executed without arguments - list all available commands.<br/>
-       If !COMMAND name given - print help information for the command.
+       If COMMAND name given - print help information for the command.
 ----
 === echo ===
 *NAME*
@@ -45,5 +45,28 @@ Usualy *red* output mean something went *wrong*, while something *green* mean so
        echo `[STRING(s)]`
 
 *DESCRIPTION*
-       Echo the STRING(s) to output.
+       Split string(s) onto arguments, and print, how it is interpreted by interpreter. This command don't have any practical reason, but can we used for test purposes. For example - test, how does special symbols escaping work, and how arguments splited.
+
+*EXAMPLES*
+{{{
+MkS:/> echo hello, world
+Argument: <hello,>
+Argument: <world>
+MkS:/> echo 'hello, world'
+Argument: <'hello,>
+Argument: <world'>
+MkS:/> echo "hello, world"
+Argument: <hello, world>
+MkS:/> 
+}}}
+----
+=== parser ===
+*NAME*
+       parser - allows to add and remove console output parsing patterns
+
+*SYNOPSIS*
+       parser `[add NAME REGEXP FILENAME COLUMN ROW PATTERN_TYPE PATTERN_TEXT FULL_TEXT | remove NAME REGEXP]`<br/>
+       Add or remove [console parsers].<br/>
+       add - add parser. Parameters listed.<br/>
+       remove - remove parser by it's name and regular expression.
 ----
