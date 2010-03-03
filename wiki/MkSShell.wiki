@@ -10,12 +10,32 @@ The MkS Shell plugin add a terminal like front end to our internal MkSShellInter
 The MkS Shell Interpreter is a command processing class that allow us to execute command on object without needing to deal directly with them.<br />
 The MkS Shell plugin allow you to execute commands directly by hand.<br />
 It's more a debugging / dev tool than something you may daily need.<br />
+Usualy *red* output mean something went *wrong*, while something *green* mean something *right*.
 
 == Short list of builtin commands: ==
 
- * [MkSShell#echo echo]: Print back the passed parameters to the output.<br />
+ * [MkSShell#help help]: List available commands, print help for a command
+ * [MkSShell#abbreviation abbreviation]: Manage abbreviations - quick way for insert syntax constructions.
+ * [MkSShell#association associaton]: Configure file name to language associations.
+ * [MkSShell#echo echo]: Print back the passed parameters to the output
+ * [MkSShell#environment environment]: Manage system environment.(i.e. set PATH for search compilers and other software)
+ * [MkSShell#parser parser]: Add and remove console output parsers.
+ * [MkSShell#tools tools]: Add and remove tools - configurable menu items.
+
+
 
 == Commands description: ==
+----
+=== help ===
+*NAME*
+       help - list available commands, print help for a command
+
+*SYNOPSIS*
+       echo `[COMMAND]`
+
+*DESCRIPTION*
+       If executed without arguments - list all available commands.<br/>
+       If !COMMAND name given - print help information for the command.
 ----
 === echo ===
 *NAME*
@@ -27,7 +47,3 @@ It's more a debugging / dev tool than something you may daily need.<br />
 *DESCRIPTION*
        Echo the STRING(s) to output.
 ----
- * *help*: This will present the list of available commands.
-
-Each command have help that can be query typing: *help `<`command`>`*.<br />
-Generally *red* output mean something went *wrong*, while something *green* mean something *right*.
