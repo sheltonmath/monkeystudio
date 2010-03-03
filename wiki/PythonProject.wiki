@@ -1,27 +1,27 @@
-#summary PyQt Project tutorial & tips
+#summary !PyQt Project tutorial & tips
 #labels Users-Documentation
 
 = Introduction =
 
 Python is a very popular interpreting programming language, it's developed to be an easy language with the features of the high level programming languages.<br />
-As the python is getting more popular, a lot of the libraries that are designed originally for C & C++ had been ported to Python through binding libraries. One of these libraries is the PyQt which is the Python bindings for Qt. &, as MkS^(1)^ supports Python language, it supports PyQt.
+As the python is getting more popular, a lot of the libraries that are designed originally for C & C++ had been ported to Python through binding libraries. One of these libraries is the !PyQt which is the Python bindings for Qt. &, as MkS^(1)^ supports Python language, it supports !PyQt.
 
-= PyQt notes =
-PyQt is a multi-licensed Python library developed by RiverBank Computing Limited. For any use except for the commercial use, it's licensed under GPLv2. For the commercial use RiverBank computing provides a special-purpose designed commercial license.
+= !PyQt notes =
+!PyQt is a multi-licensed Python library developed by RiverBank Computing Limited. For any use except for the commercial use, it's licensed under GPLv2. For the commercial use RiverBank computing provides a special-purpose designed commercial license.
 For more information: [http://www.riverbankcomputing.co.uk]
 
-= PyQt Hello World =
-This part is a quick tutorial telling you how the basic things in PyQt are going.
+= !PyQt Hello World =
+This part is a quick tutorial telling you how the basic things in !PyQt are going.
 
 == Notes ==
 This tutorial expects that you have the basic knowledge in Python at least. If you don't know how the Python code looks like don't continue.
 
-== Setup MonkeyStudio ==
-The support of Python in MonkeyStudio is done through the [pythonPlugin Python Plugin], thus, you need to verfify that the plugin is enabled at first.<br />
+== Setup !MonkeyStudio ==
+The support of Python in !MonkeyStudio is done through the [pythonPlugin Python Plugin], thus, you need to verfify that the plugin is enabled at first.<br />
 Goto: Plugins > Interpreter > Python, & check Enabled.
 
 == Create The First Project ==
-Now, you can create & open Python projects. Goto: File > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates MonkeyStudio provide, click on PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: MonkeyStudio PyQt tutorial. Change the other options to fit your needs & click create.<br />
+Now, you can create & open Python projects. Goto: File > New, a Template Wizard will be shown. From the language menu choose Python & from the type menu choose Projects. The left list will show you the Python projects templates !MonkeyStudio provide, click on !PyQt GUI. The right column of the dialog will show the set of settings needed to create the project. Change the project name to be: !MonkeyStudio !PyQt tutorial. Change the other options to fit your needs & click create.<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/snapshot2.png]
 
 == Discovering the Project ==
@@ -33,9 +33,9 @@ Now, we had the GUI ready for the coding. Return to the Project dockbar & double
 {{{
 import sys
 
-# import PyQt4 QtCore and QtGui modules
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+# import !PyQt4 QtCore and QtGui modules
+from !PyQt4.QtCore import *
+from !PyQt4.QtGui import *
 }}}
 This part of the code imports the needed libraries to be able to start the GUI.
 
@@ -52,14 +52,14 @@ This conditional syntax verifies that the program is a standalone & had not been
 {{{
     # create application
     app = QApplication(sys.argv)
-    app.setApplicationName('MonkeyStudio PyQt tutorial')
+    app.setApplicationName('!MonkeyStudio !PyQt tutorial')
 }}}
 This part prepares the Qt to show the windows.
 
 {{{
     # create widget
     w = MainWindow()
-    w.setWindowTitle('MonkeyStudio PyQt tutorial')
+    w.setWindowTitle('!MonkeyStudio !PyQt tutorial')
     w.show()
 }}}
 This part prepares the window we imported before, & shows it.
@@ -78,11 +78,11 @@ This part ends the program after executing the Qt application.<br />
 Mostly, the main.py file is a standard file, we don't have a lot of things to do with it, because, the most hard work is in the mainwindow.py, which is the coding part of the form we created before. Now, open the mainwindow.py. Lines description are as following:<br />
 
 {{{
-from PyQt4 import uic
+from !PyQt4 import uic
 
 (Ui_MainWindow, QMainWindow) = uic.loadUiType('mainwindow.ui')
 }}}
-This imports the uic module from the PyQt library. This module is responsible from converting the UI file to something the PyQt can interact with.
+This imports the uic module from the !PyQt library. This module is responsible from converting the UI file to something the !PyQt can interact with.
 
 {{{
 class MainWindow (QMainWindow):
@@ -107,9 +107,9 @@ This class is what exactly we will work on, because, in this class we will write
 
 == CODING!!! ==
 Before you start check [signalAndSlot Signals & Slots] page to know more about signals & slots.<br />
-Let's start with an easy thing. When we click on Continue button we want the console to print something. To do so, we need at first to import a module from the PyQt4. Add this line to the head of the file:
+Let's start with an easy thing. When we click on Continue button we want the console to print something. To do so, we need at first to import a module from the !PyQt4. Add this line to the head of the file:
 {{{
-from PyQt4.QtCore import *
+from !PyQt4.QtCore import *
 }}}
 Now, we need to connect the click() signal with a slot, by, adding to the end of the __init__ function this line:
 {{{
@@ -121,8 +121,8 @@ This function connects the clicked() signal of the pushButton (the name of the b
     def click(self):
         print "welcome, " + self.ui.lineEdit.text() + "!!"
 }}}
-The first line is a decoration telling the PyQt, that, this is a slot. The second line is the function defining line. The third line is the function body, in it, we put the print command to print greetings for the name written inside the lineEdit object.<br />
+The first line is a decoration telling the !PyQt, that, this is a slot. The second line is the function defining line. The third line is the function body, in it, we put the print command to print greetings for the name written inside the lineEdit object.<br />
 Now, all you need to do is playing with the signals & slots to get started.
 
 --------------------------------------------------------------------------------------------
-(1): MonkeyStudio
+(1): !MonkeyStudio
