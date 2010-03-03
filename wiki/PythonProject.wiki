@@ -33,9 +33,9 @@ Now, we had the GUI ready for the coding. Return to the Project dockbar & double
 {{{
 import sys
 
-# import !PyQt4 QtCore and QtGui modules
-from !PyQt4.QtCore import *
-from !PyQt4.QtGui import *
+# import PyQt4 QtCore and QtGui modules
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 }}}
 This part of the code imports the needed libraries to be able to start the GUI.
 
@@ -109,7 +109,7 @@ This class is what exactly we will work on, because, in this class we will write
 Before you start check [signalAndSlot Signals & Slots] page to know more about signals & slots.<br />
 Let's start with an easy thing. When we click on Continue button we want the console to print something. To do so, we need at first to import a module from the !PyQt4. Add this line to the head of the file:
 {{{
-from !PyQt4.QtCore import *
+from PyQt4.QtCore import *
 }}}
 Now, we need to connect the click() signal with a slot, by, adding to the end of the __init__ function this line:
 {{{
