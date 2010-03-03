@@ -106,7 +106,7 @@ This is the Class __del__ function. It removes the window after closing it.<br /
 This class is what exactly we will work on, because, in this class we will write how the window's Signals are being interpreted.
 
 == CODING!!! ==
-Before you start check [signalAndSlot Signals & Slots] page to know more about signals & slots.<br />
+Before you start check [http://doc.trolltech.com/4.6/signalsandslots.html Signals & Slots] page to know more about signals & slots.<br />
 Let's start with an easy thing. When we click on Continue button we want the console to print something. To do so, we need at first to import a module from the !PyQt4. Add this line to the head of the file:
 {{{
 from PyQt4.QtCore import *
