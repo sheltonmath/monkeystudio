@@ -78,7 +78,7 @@ This part ends the program after executing the Qt application.<br />
 Mostly, the main.py file is a standard file, we don't have a lot of things to do with it, because, the most hard work is in the mainwindow.py, which is the coding part of the form we created before. Now, open the mainwindow.py. Lines description are as following:<br />
 
 {{{
-from !PyQt4 import uic
+from PyQt4 import uic
 
 (Ui_MainWindow, QMainWindow) = uic.loadUiType('mainwindow.ui')
 }}}
