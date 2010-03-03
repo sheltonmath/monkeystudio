@@ -65,8 +65,12 @@ MkS:/>
        parser - allows to add and remove console output parsing patterns
 
 *SYNOPSIS*
-       parser `[add NAME REGEXP FILENAME COLUMN ROW PATTERN_TYPE PATTERN_TEXT FULL_TEXT | remove NAME REGEXP]`<br/>
-       Add or remove [console parsers].<br/>
+       parser `[add NAME REGEXP FILENAME COLUMN ROW PATTERN_TYPE PATTERN_TEXT FULL_TEXT | remove NAME REGEXP]`
+
+*DESCRIPTION*
+       Add or remove console parsers.<br>
+       You can find info about parsers at <doxygen docs>/doc/html/parsing.html file.<br/>
+         
        add - add parser. Parameters listed.<br/>
        remove - remove parser by it's name and regular expression.
 ----
