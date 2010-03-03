@@ -31,7 +31,7 @@ Usualy *red* output mean something went *wrong*, while something *green* mean so
        help - list available commands, print help for a command
 
 *SYNOPSIS*
-       echo `[COMMAND]`
+       help `[COMMAND]`
 
 *DESCRIPTION*
        If executed without arguments - list all available commands.<br/>
