@@ -7,7 +7,7 @@ Python is a very popular interpreting programming language, it's developed to be
 As the python is getting more popular, a lot of the libraries that are designed originally for C & C++ had been ported to Python through binding libraries. One of these libraries is the !PyQt which is the Python bindings for Qt. &, as MkS^(1)^ supports Python language, it supports !PyQt.
 
 = !PyQt notes =
-!PyQt is a multi-licensed Python library developed by RiverBank Computing Limited. For any use except for the commercial use, it's licensed under GPLv2. For the commercial use RiverBank computing provides a special-purpose designed commercial license.
+!PyQt is a multi-licensed Python library developed by !RiverBank Computing Limited. For any use except for the commercial use, it's licensed under GPLv2. For the commercial use !RiverBank computing provides a special-purpose designed commercial license.
 For more information: [http://www.riverbankcomputing.co.uk]
 
 = !PyQt Hello World =
