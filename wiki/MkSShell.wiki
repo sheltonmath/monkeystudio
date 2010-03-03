@@ -22,11 +22,10 @@ It's more a debugging / dev tool than something you may daily need.<br />
        echo - display a line of text
 
 *SYNOPSIS*
-       echo `[SHORT-OPTION]... [STRING]...`
-       echo `LONG-OPTION`
+       echo `[STRING(s)]`
 
 *DESCRIPTION*
-       Echo the STRING(s) to standard output.
+       Echo the STRING(s) to output.
 ----
  * *help*: This will present the list of available commands.
 
