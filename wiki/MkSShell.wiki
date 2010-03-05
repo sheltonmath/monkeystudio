@@ -45,7 +45,7 @@ Usualy *red* output mean something went *wrong*, while something *green* mean so
        abbreviation `[add MACRO DESCRIPTION LANGUAGE CODE | del MACRO LANGUAGE | show MACRO LANGUAGE | list LANGUAGE | clear]`
 
 *DESCRIPTION*
-       Add, delete, show, list or clear abbreviations.<br />
+       Add, delete, show, list or clear abbreviations, some templates can be show [http://monkeystudio.org/wiki/Abbreviations here].<br />
 
        add - Add an abbreviation.<br />
        del - Delete a specific language macro.<br />
