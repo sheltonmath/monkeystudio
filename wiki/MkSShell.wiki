@@ -42,16 +42,45 @@ Usualy *red* output mean something went *wrong*, while something *green* mean so
        abbreviation - Manage abbreviations (*code snipets*) - quick way for insert syntax constructions.
 
 *SYNOPSIS*
-       abbreviation `[add MACRO DESCRIPTION LANGUAGE CODE | del MACRO LANGUAGE | show MACRO LANGUAGE | list LANGUAGE | clear]`
+       abbreviation `[add MACRO DESCRIPTION LANGUAGE CODE | del MACRO LANGUAGE | show MACRO LANGUAGE | list <LANGUAGE> | clear]`
 
 *DESCRIPTION*
        Add, delete, show, list or clear abbreviations, some templates can be show [http://monkeystudio.org/wiki/Abbreviations here].<br />
+       A place holder (*'|'* character) can be inserted to state where the text cursor should be positioned after the macro expansion.<br />
 
        add - Add an abbreviation.<br />
        del - Delete a specific language macro.<br />
        show - Show a specific language macro.<br />
        list - List all abbreviations of a specified language, or all languages if language is not specified.<br />
        clear - clear all abbreviations
+
+*EXAMPLES*
+{{{
+MkS:/> abbreviation add "switchb" "A switch statement" "C++" "switch( | )\n{\n}"
+MkS:/> 
+}}}
+----
+=== association ===
+*NAME*
+       association - Manage associations (*languages suffixes*) - quick way for associate some file extension with language names.
+
+*SYNOPSIS*
+       association `[add TYPE SUFFIXES | set TYPE SUFFIXES | del TYPE SUFFIXES | list <TYPE> | clear <TYPE>]`
+
+*DESCRIPTION*
+       Add, set, delete, list or clear associations.<br />
+
+       add - Add associations (previous content is keep).<br />
+       set - Set associations (previous content is erased).<br />
+       del - Delete a specific language associations.<br />
+       list - List all associations of a specified language, or all languages if language is not specified.<br />
+       clear - clear all associations or the language associations if defined.
+
+*EXAMPLES*
+{{{
+MkS:/> association set "C++" "*.c, *.cpp, *.h, *.hpp"
+MkS:/> 
+}}}
 ----
 === echo ===
 *NAME*
