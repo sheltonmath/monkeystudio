@@ -3,7 +3,8 @@
 
 = Introduction =
 
-The tools plugin allows you to add to a pre-created menu by the plugin, a set of commands a user can define & a set of external programs, so that the accessibility to the often used tools becomes easier.
+The tools plugin allows you to add to a pre-created menu by the plugin, a set of commands a user can define & a set of external programs, so that the accessibility to the often used tools becomes easier.<br />
+The plugin have some [MkSShell Mks Shell] commands you can use, see [MkSShell#tools here].
 
 = User Tools =
 
