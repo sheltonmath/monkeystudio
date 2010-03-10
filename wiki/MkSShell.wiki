@@ -1,5 +1,5 @@
 #summary MkS Shell plugin help
-#labels mksshell,interpreter,shell,Users-Documentation
+#labels mksshell,interpreter,shell,Users-Documentation,commands
 
 = Introduction =
 
@@ -155,7 +155,7 @@ MkS:/>
        set - Set a tool.<br />
        unset - Unset a tool.<br />
        clear - Unset all tools.<br />
-       update-menu - Update (apply) the menu bar entries .<br />
+       update-menu - Update (apply) the menu bar entries.<br />
        list - List all tools and their properties.
 
 *EXAMPLES*
