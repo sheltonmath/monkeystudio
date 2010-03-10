@@ -73,6 +73,11 @@ MkS:/>
          
        add - add parser. Parameters listed.<br/>
        remove - remove parser by it's name and regular expression.
+*EXAMPLES*
+{{{
+# #warning preprocessor dirrective
+parser add "GCC" "^([\w\d\./\\\-]+):(\d+):\d+: warning: #warning ([^\n]*)" "%1" "-1" "%2" "warning" "%3" "%0"
+}}}
 ----
 === abbreviation ===
 *NAME*
