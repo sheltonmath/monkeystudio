@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The MkS Search & Replace adds the support of searching & replacing within files or directories.
+The MkS Search & Replace plugin adds the support of searching & replacing within files or directories.
 
 
 = Details =
