@@ -21,7 +21,7 @@ When the Search & Replace plugin is enabled, a set of commands will be added to 
  * Search in Opened Files: to search in all files in all opened files.
  * Replace in Opened Files: to search & replace in all files in all opened files.
 
-== Working with RegExp^(2)^ ==
+== Working with !RegExp^(2)^ ==
 Search & Replace plugin provides searching & replacing with RegExp. RegExp is a logical string that is used for matching a string according to a logical pattern not a specified string.
 
 === Classical Searching vs. !RegExp Searching ===
