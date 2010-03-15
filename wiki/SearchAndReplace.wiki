@@ -21,5 +21,5 @@ When the Search & Replace plugin is enabled, a set of commands will be added to 
  * Search in Opened Files: to search in all files in all opened files.
  * Replace in Opened Files: to search & replace in all files in all opened files.
 
----
+-----------------------------------------------------------------------------------------
 (1): Integrated Development Environments
