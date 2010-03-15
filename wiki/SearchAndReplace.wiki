@@ -1,4 +1,5 @@
 #summary search & replace plugin.
+#labels Users-Documentation
 
 = Introduction =
 
@@ -50,8 +51,8 @@ this "car" is a piece of cartoon. it's not a real "CAAAR".
 }}}
 to learn more about the patterns, refer to: [http://en.wikipedia.org/wiki/Regular_expression]
 
-=== Applying !RegExp in !MkS ===
-To enable the !Regex you will need to 
+=== Replacing with !RegExp ===
+As searching in !RegExp is done, now, you need to benefit from the replacing feature.
 
 -----------------------------------------------------------------------------------------
 (1): Integrated Development Environments.<br />
