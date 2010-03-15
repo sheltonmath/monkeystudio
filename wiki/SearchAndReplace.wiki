@@ -24,7 +24,7 @@ When the Search & Replace plugin is enabled, a set of commands will be added to 
 == Working with RegExp^(2)^ ==
 Search & Replace plugin provides searching & replacing with RegExp. RegExp is a logical string that is used for matching a string according to a logical pattern not a specified string.
 
-=== Classical Searching vs. RegExp Searching ===
+=== Classical Searching vs. !RegExp Searching ===
 The classical searching can only match the string which is the same as the search string. For example, if you search for "car" in these lines:
 {{{
 this car is a piece of cartoon. it's not a real CAAAR.
@@ -34,8 +34,8 @@ it'll match:
 this "car" is a piece of "car"toon. it's not a real CAAAR.
 }}}
 in this case we only matched two occurrences, & only one of them is the one we need. Notice that the last word wasn't matched because it's not the same as the search string.<br />
-To do so, we can use the RegExp, which, as we said, a logical pattern. The meaning of "logical pattern" is that we are not matching string with string, but, we are matching a string with a set of strings according to the pattern used. To write a simple pattern you need to know how the pattern is being processed. For example, this pattern "c[a]+r[\s\W]". The parts of these pattern are:
- * c: this is a letter, the RegExp engine will match a single c letter.
+To do so, we can use the !RegExp, which, as we said, a logical pattern. The meaning of "logical pattern" is that we are not matching string with string, but, we are matching a string with a set of strings according to the pattern used. To write a simple pattern you need to know how the pattern is being processed. For example, this pattern "c[a]+r[\s\W]". The parts of these pattern are:
+ * c: this is a letter, the !RegExp engine will match a single c letter.
  * [a]+: putting a letter between the expression brackets means something special is going to be with this. In this case we are searching for a letter a one time & more.
  * r: the same as c.
  * [\s\W]: again, the expression brackets, but, the expression here is different, we didn't provide normal characters, we provided literal characters. These characters can mean one thing or a set of things. the \s means a space & the \W means a non-word character such as "'(/.>,:;<|.
@@ -50,8 +50,8 @@ this "car" is a piece of cartoon. it's not a real "CAAAR".
 }}}
 to learn more about the patterns, refer to: [http://en.wikipedia.org/wiki/Regular_expression]
 
-=== Applying RegExp in MkS ===
-To enable the Regex you will need to 
+=== Applying !RegExp in !MkS ===
+To enable the !Regex you will need to 
 
 -----------------------------------------------------------------------------------------
 (1): Integrated Development Environments.<br />
