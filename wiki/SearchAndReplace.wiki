@@ -1,0 +1,25 @@
+#summary search & replace plugin.
+
+= Introduction =
+
+The MkS Search & Replace adds the support of searching & replacing within files or directories.
+
+
+= Details =
+Search & Replace is a common features in most text editors & IDEs^(1)^. It allows you to search for a specified string in the current file, or in files in a specified directory & replace them with a specified string. That will help you override any mistakes or late-changes done to the whole project.
+
+== Commands provided by the plugin ==
+When the Search & Replace plugin is enabled, a set of commands will be added to View > Search & Replace, these are:
+ * Search: to search in the current file.
+ * Replace: to search & replace in the current file.
+ * Search Next: to search for the next occurrences.
+ * Search Previous: to search for the previous occurrences.
+ * Search in Directory: to search in all files in a directory.
+ * Replace in Directory: to search & replace in all files in a directory.
+ * Search in Project Files: to search in all files in the current opened project.
+ * Replace in Project Files: to search & replace in all files in the current opened project.
+ * Search in Opened Files: to search in all files in all opened files.
+ * Replace in Opened Files: to search & replace in all files in all opened files.
+
+---
+(1): Integrated Development Environments
