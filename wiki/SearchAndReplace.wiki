@@ -41,10 +41,10 @@ To do so, we can use the !RegExp, which, as we said, a logical pattern. The mean
  * r: the same as c.
  * [\s\W]: again, the expression brackets, but, the expression here is different, we didn't provide normal characters, we provided literal characters. These characters can mean one thing or a set of things. the \s means a space & the \W means a non-word character such as "'(/.>,:;<|.
 Now let's look to the pattern we made:
- * 1. we asked the engine to match a string starting with c.
- * 2. & followed by single or multi a.
- * 3. & followed by r.
- * 4. & ends with space or a non-word character.
+ # we asked the engine to match a string starting with c.
+ # & followed by single or multi a.
+ # & followed by r.
+ # & ends with space or a non-word character.
 if we applied this pattern on the last testcase, we will get:
 {{{
 this "car" is a piece of cartoon. it's not a real "CAAAR".
