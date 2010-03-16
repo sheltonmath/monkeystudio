@@ -35,11 +35,11 @@ it'll match:
 this "car" is a piece of "car"toon. it's not a real CAAAR.
 }}}
 in this case we only matched two occurrences, & only one of them is the one we need. Notice that the last word wasn't matched because it's not the same as the search string.<br />
-To do so, we can use the !RegExp, which, as we said, a logical pattern. The meaning of "logical pattern" is that we are not matching string with string, but, we are matching a string with a set of strings according to the pattern used. To write a simple pattern you need to know how the pattern is being processed. For example, this pattern "c[a]+r[\s\W]". The parts of these pattern are:
+To do so, we can use the !RegExp, which, as we said, a logical pattern. The meaning of "logical pattern" is that we are not matching string with string, but, we are matching a string with a set of strings according to the pattern used. To write a simple pattern you need to know how the pattern is being processed. For example, this pattern "`c[a]+r[\s\W]`". The parts of these pattern are:
  * c: this is a letter, the !RegExp engine will match a single c letter.
- * [a]+: putting a letter between the expression brackets means something special is going to be with this. In this case we are searching for a letter a one time & more.
+ * `[a]+`: putting a letter between the expression brackets means something special is going to be with this. In this case we are searching for a letter a one time & more.
  * r: the same as c.
- * [\s\W]: again, the expression brackets, but, the expression here is different, we didn't provide normal characters, we provided literal characters. These characters can mean one thing or a set of things. the \s means a space & the \W means a non-word character such as "'(/.>,:;<|.
+ * `[\s\W]`: again, the expression brackets, but, the expression here is different, we didn't provide normal characters, we provided literal characters. These characters can mean one thing or a set of things. the \s means a space & the \W means a non-word character such as "'(/.>,:;<|.
 Now let's look to the pattern we made:
  # we asked the engine to match a string starting with c.
  # & followed by single or multi a.
