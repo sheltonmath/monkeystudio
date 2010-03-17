@@ -23,7 +23,8 @@ When the Search & Replace plugin is enabled, a set of commands will be added to 
  * Replace in Opened Files: to search & replace in all files in all opened files.
 
 == Working with !RegExp^(2)^ ==
-Search & Replace plugin provides searching & replacing with RegExp. RegExp is a logical string that is used for matching a string according to a logical pattern not a specified string.
+Search & Replace plugin provides searching & replacing with RegExp. RegExp is a logical string that is used for matching a string according to a logical pattern not a specified string. To enable it, just check the "Regular Expression" checkbox in the options bar of the search bar.
+http://monkeystudio.googlecode.com/svn/wiki/images/snapshot4.png
 
 === Classical Searching vs. !RegExp Searching ===
 The classical searching can only match the string which is the same as the search string. For example, if you search for "car" in these lines:
@@ -52,8 +53,21 @@ this "car" is a piece of cartoon. it's not a real "CAAAR".
 to learn more about the patterns, refer to: [http://en.wikipedia.org/wiki/Regular_expression]
 
 === Replacing with !RegExp ===
-As searching in !RegExp is done, now, you need to benefit from the replacing feature.
+As searching in !RegExp is done, now, you need to benefit from the replacing feature. if you just want to replace the search pattern with a string you just need to put that string in the replace textbox, like:
+http://monkeystudio.googlecode.com/svn/wiki/images/snapshot5.png
+if we applied that on the last example we will get:
+{{{
+this cycle is a piece of cartoon. it's not a real cycle.
+}}}
+in this case, we just replaced a pattern with a string, while, !RegExp gave us the power to replace a pattern with a pattern. To do so, you need to know about the "magical brackets" or the capturing group "()". Those two brackets indicates that the part of the search pattern should be captured as a variable, for example, if we added the capturing group to the last search pattern in this way: `(c[a]+)r[\s\W]`, then, we are telling the !RegExp engine to capture the found string in a variable name equals the one-based ID of the grouping capture --$1. & if we added another capturing group to the pattern to be: `(c[a]+)r([\s\W])`, then, we will have two variables --$1 & $2. Now, set the last pattern in the search textbox & `damned-$1'$2` in the replace textbox & apply that to our first example, we will have:
+{{{
+this damned-ca' is a piece of cartoon. it's not a real damned-CAAA'.
+}}}
+In this case, we are able to replace the code with a richer way.
 
+
+=== Notices ===
+MkSMonkeyStudio uses the QRegExp engine for applying RegExp in Search & Replace plugin in the current version. Till now, we don't have any ideas about changing the engine, but, if we do, we will let you know.
 -----------------------------------------------------------------------------------------
 (1): Integrated Development Environments.<br />
 (2): Regular Expression, also known as regex.<br />
