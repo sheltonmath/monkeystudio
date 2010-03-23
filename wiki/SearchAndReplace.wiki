@@ -1,5 +1,5 @@
 #summary search & replace plugin.
-#labels Users-Documentation
+#labels Users-Documentation,search,replace
 
 = Introduction =
 
@@ -67,7 +67,7 @@ In this case, we are able to replace the code with a richer way.
 
 
 === Notices ===
-!MonkeyStudio uses the QRegExp engine for applying RegExp in Search & Replace plugin in the current version. Till now, we don't have any ideas about changing the engine, but, if we do, we will let you know.
+!MonkeyStudio uses the [http://qt.nokia.com/doc/4.6/qregexp.html#details QRegExp] engine for applying RegExp in Search & Replace plugin in the current version. Till now, we don't have any ideas about changing the engine, but, if we do, we will let you know.
 -----------------------------------------------------------------------------------------
 (1): Integrated Development Environments.<br />
 (2): Regular Expression, also known as regex.<br />
