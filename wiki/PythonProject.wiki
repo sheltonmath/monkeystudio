@@ -27,8 +27,9 @@ Now, you can create & open Python projects. Goto: Project > New, a Template Wiza
 == Discovering the Project ==
 Once you click create, the MkS will show you your created project. The projects Dockbar will show the project & its elements classified into two types: Qt Forms & Python Files. Qt Forms are the GUI forms you want to code, while, the Python Files are the codes. Expand Qt Forms & double click on mainwindow.ui, the Qt Forms designer will be shown. Activate the Widget Box dockbar to show the Qt GUI objects list & activate the Property Editor to show the objects properties bar. Change the windowTitle properety to: Hello World! to change the window's title.<br />
 Now, put some objects to get some fun. Do something like this:<br />
-[http://monkeystudio.googlecode.com/svn/wiki/images/snapshot3.png]
+[http://monkeystudio.googlecode.com/svn/wiki/images/snapshot3.png]<br />
 If you want to see how your form is displayed to the user, simply, click on 'Preview in..' button on the designer toolbar, & choose Preview in Oxygen or any other style.<br />
+[http://monkeystudio.googlecode.com/svn/wiki/images/snapshot6.png] the last button on the toolbar<br />
 Now, we had the GUI ready for the coding. Return to the Project dockbar & double click on main.py. This will show the contents of the file. Lines description are as following:<br />
 {{{
 import sys
