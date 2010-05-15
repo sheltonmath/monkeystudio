@@ -1,0 +1,9 @@
+#summary Visual Changelog of MkS versions.
+#labels Users-Documentation
+
+= Introduction =
+
+Here you'll find an improved version of the traditional changelog. you'll find some screenshot, links & other resources that are related to each version.
+
+
+= 1.8.4.0b2 =
