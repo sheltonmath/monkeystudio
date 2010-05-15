@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Release 1.8.4.0 =
+
+Monkey Studio IDE is a cross platform Integrated Development Environment.
+It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 10.6), Linux and Unix like.
+
+= Changes since release 1.8.4.0b1 =
+
+  * Change 1
+  * change 2
+
+= Changes since release 1.8.3.x =
+
+  * change 1
+  * change 2
