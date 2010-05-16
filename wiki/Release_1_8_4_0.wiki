@@ -35,7 +35,7 @@ It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 1
   * Introduce Update Checker plugin:
     * A plugin that inform and propose you to download new MkS releases.
   * XUP enhancements:
-    * Dynamic Folder: a watched folder which contents is diaplyed inside the project view, with possible filter configuration.
+    * Dynamic Folder: a watched folder which contents is displayed inside the project view, with possible filter configuration.
     * Custom menu actions per project (Build, debug, interpret etc).
   * Fix a crash on non kde/qt based desktops.
   * Fix a long time unknown bug that cause build errors on (mostly) 64bits architectures.
