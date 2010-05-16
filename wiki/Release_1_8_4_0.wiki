@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary MkS v1.8.4.0 release notes & changelog.
 
 = Release 1.8.4.0 =
 
