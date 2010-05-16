@@ -49,7 +49,10 @@ It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 1
 = Screenshots =
 
 [http://monkeystudio.googlecode.com/svn/wiki/images/cl_1.8.4.0_1.png]<br />
+(The new locale choice dialog)<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/cl_1.8.4.0_2.png]<br />
+(The latest QScintilla version)<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/cl_1.8.4.0_3.png]<br />
+(Qt version detection)<br />
 [http://monkeystudio.googlecode.com/svn/wiki/images/cl_1.8.4.0_4.png]<br />
-[http://monkeystudio.googlecode.com/svn/wiki/images/cl_1.8.4.0_5.png]
+(The RegExp Search & Replace)
