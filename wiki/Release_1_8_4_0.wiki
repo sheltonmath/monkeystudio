@@ -26,8 +26,17 @@ It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 1
   * Introduce a system environment variable in settings that allow to define/edit soem variables: NO CHANGES ARE MADE ON THE SYSTEM.
   * Translation files are now named using language/country code.
   * About dialog has been reworked.
-  * The queued message widget is now added into the central widget layout (cause of an os x bug with unified window and title bar).
-  * The reload action now does a true reload instead of closing/re opening the document.
+  * Introduce a queued message widget:
+    * Show passive informations to the user.
+    * Possibility to add buttons and custom icons.
+  * Rework the "Opened Files Dock" widget:
+    * Support different sort methods.
+    * Possibility to reload documents.
+  * Introduce Update Checker plugin:
+    * A plugin that inform and propose you to download new MkS releases.
+  * XUP enhancements:
+    * Dynamic Folder: a watched folder which contents is diaplyed inside the project view, with possible filter configuration.
+    * Custom menu actions per project (Build, debug, interpret etc).
   * Fix a crash on non kde/qt based desktops.
   * Fix a long time unknown bug that cause build errors on (mostly) 64bits architectures.
   * Add support for Qt 4.7.
