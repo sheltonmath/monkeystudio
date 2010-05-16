@@ -14,6 +14,7 @@ It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 1
     * Has a settings widget.
     * The RegExp search now use Qt QRegExp instead of scintilla RegExp.
     * Replace can now do partial replace based on regexp capture id (see [SearchAndReplace here]).
+  * QScintilla updated to last version.
   * Add a new setting for set the default code editor font:
     * The font is mono-spaced by default.
     * All lexers are using the default font family and point size.
@@ -29,3 +30,8 @@ It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 1
   * The reload action now does a true reload instead of closing/re opening the document.
   * Fix a crash on non kde/qt based desktops.
   * Fix a long time unknown bug that cause build errors on (mostly) 64bits architectures.
+  * Add support for Qt 4.7.
+  * New Qt assistant plugin based on webkit that can now be used as a small web client.
+  * PostIt plugin has been removed.
+  * New templates for creating MkS plugins.
+  * Introduce a file watcher plugin which track local/external file changes in the opened files view.
