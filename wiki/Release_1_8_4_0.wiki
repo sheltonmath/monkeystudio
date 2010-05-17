@@ -1,4 +1,5 @@
 #summary MkS v1.8.4.0 release notes & changelog.
+#labels Featured
 
 = Release 1.8.4.0 =
 
