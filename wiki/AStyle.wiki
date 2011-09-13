@@ -1,5 +1,6 @@
 #summary AStyle plugin help
 #labels astyle,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
