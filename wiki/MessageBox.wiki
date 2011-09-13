@@ -1,5 +1,6 @@
 #summary MessageBox plugin help
 #labels messagebox,Users-Documentation,message,box
+#sidebar TOC
 
 = Introduction =
 
