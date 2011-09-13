@@ -1,4 +1,5 @@
 #summary File Watcher plugin help
+#sidebar TOC
 
 = Introduction =
 
