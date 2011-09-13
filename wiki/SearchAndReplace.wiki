@@ -1,5 +1,6 @@
 #summary search & replace plugin.
 #labels Users-Documentation,search,replace
+#sidebar TOC
 
 = Introduction =
 
