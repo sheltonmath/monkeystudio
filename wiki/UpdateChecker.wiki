@@ -1,5 +1,6 @@
 #summary Update Checker plugin help
 #labels update,checker,UpdateChecker,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
