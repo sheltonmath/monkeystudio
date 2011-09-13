@@ -1,5 +1,6 @@
 #summary ClassBrowser plugin help
 #labels ctags,classbrowser,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
