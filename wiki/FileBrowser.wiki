@@ -1,5 +1,6 @@
 #summary File Browser plugin help
 #labels filebrowser,file,browser,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
