@@ -1,5 +1,6 @@
 #summary the introduction page
 #labels Featured,Users-Documentation
+#sidebar TOC
 
 = What's Monkey Studio IDE ? =
 
