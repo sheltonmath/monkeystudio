@@ -1,5 +1,6 @@
 #summary Tools plugin help
 #labels tools,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
