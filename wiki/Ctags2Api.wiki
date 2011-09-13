@@ -1,5 +1,6 @@
 #summary Ctags2Api plugin help
 #labels Users-Documentation,ctags,api
+#sidebar TOC
 
 = Introduction =
 
