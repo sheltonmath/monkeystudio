@@ -1,5 +1,6 @@
 #summary Regular Expression Editor plugin help
 #labels regexp,regular,expression,editor,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
