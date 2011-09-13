@@ -1,5 +1,6 @@
 #summary MkS Shell plugin help
 #labels mksshell,interpreter,shell,Users-Documentation,commands
+#sidebar TOC
 
 = Introduction =
 
