@@ -1,5 +1,6 @@
 #summary Basic plugins help
 #labels Users-Documentation,basic
+#sidebar TOC
 
 Basic plugins are plugins that add extra functionalities to MkS.<br />
 It can be things that add support for:
