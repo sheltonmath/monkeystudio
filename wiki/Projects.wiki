@@ -1,5 +1,6 @@
 #summary Projects system in MkS
 #labels Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
