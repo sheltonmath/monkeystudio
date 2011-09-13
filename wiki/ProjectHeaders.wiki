@@ -1,5 +1,6 @@
 #summary Project Headers plugin help
 #labels projectheaders,licensing,project,Users-Documentation
+#sidebar TOC
 
 = Introduction =
 
