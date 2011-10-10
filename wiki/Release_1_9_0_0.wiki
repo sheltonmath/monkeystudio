@@ -1,49 +1,26 @@
-#summary MkS v1.8.4.0 release notes & changelog.
+#summary MkS v1.9.0.0 release notes & changelog.
 
-= Release 1.8.4.0 =
+= Release 1.9.0.0 =
 
 Monkey Studio IDE is a cross platform Integrated Development Environment.
 It run on Windows (98 up to Seven), Mac OS X (Universal ppc/x86 for 10.4 up to 10.6), Linux and Unix like.
 
-= Changes since release 1.8.3.x =
+= Changes since release 1.8.4.0 =
 
-  * New locale choice dialog.
-  * New threaded Search & Replace plugin :
-    * Incredibly quick and powerfull.
-    * Search & replace in current file, opened files, project files, folders.
-    * Has a settings widget.
-    * The RegExp search now use Qt QRegExp instead of scintilla RegExp.
-    * Replace can now do partial replace based on regexp capture id (see [SearchAndReplace here]).
+  * Complete overwrite of the XUP internals.
+  * Complete rewrite of the projects settings editor (they now use abstract classes and shared code).
   * QScintilla updated to last version.
-  * Add a new setting for set the default code editor font:
-    * The font is mono-spaced by default.
-    * All lexers are using the default font family and point size.
-    * It's possible to update all lexers style elements to sync with default family & point size.
-  * Qt Version manager now automatically discover installed Qt versions.
-  * Class browser / qCtagsSense framework now based on ctags 5.8.
-  * Tools has been moved to a plugin to strip the MkS core code.
-  * Build Steps view is now using a custom model and does no longer freeze on heavy steps added in short lap of time.
-  * Introduce a system environment variable in settings that allow to define/edit soem variables: NO CHANGES ARE MADE ON THE SYSTEM.
-  * Translation files are now named using language/country code.
-  * About dialog has been reworked.
-  * Introduce a queued message widget:
-    * Show passive informations to the user.
-    * Possibility to add buttons and custom icons.
-  * Rework the "Opened Files Dock" widget:
-    * Support different sort methods.
-    * Possibility to reload documents.
-  * Introduce Update Checker plugin:
-    * A plugin that inform and propose you to download new MkS releases.
-  * XUP enhancements:
-    * Dynamic Folder: a watched folder which contents is displayed inside the project view, with possible filter configuration.
-    * Custom menu actions per project (Build, debug, interpret etc).
-  * Fix a crash on non kde/qt based desktops.
-  * Fix a long time unknown bug that cause build errors on (mostly) 64bits architectures.
-  * Add support for Qt 4.7.
-  * New Qt assistant plugin based on webkit that can now be used as a small web client.
-  * PostIt plugin has been removed.
-  * New templates for creating MkS plugins.
-  * Introduce a file watcher plugin which track local/external file changes in the opened files view.
+  * Small GUI revamp.
+  * A file can now be opened as brut text file.
+  * Add a new workspace mode (specially for Mac OS X, NoTabs has been replaced by MDI, NoTabs is the new mode).
+  * Qt Version manager better installed Qt version discovering.
+  * Build Steps has been updated and now handle better the warnings/messages/errors. In addition, the qmake output parser has been introduced.
+  * Plugins about dialog has been reworked.
+  * Message boxes plugins has been reworked, the command box diseappear.
+  * Added the possibility to open as plain text the current project file.
+  * Custom project action are now available for all kind of projects, in addition, the qmake plugin now read the project makefile for better discovering the available build rules.
+  * Added and reworked many templates.
+  * 
 
 
 = Screenshots =
