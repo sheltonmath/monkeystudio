@@ -1,4 +1,5 @@
 #summary MkS v1.9.0.0 release notes & changelog.
+#labels Featured
 
 = Release 1.9.0.0 =
 
