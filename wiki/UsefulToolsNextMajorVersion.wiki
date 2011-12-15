@@ -1,0 +1,10 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Here is listed useful tools we see other the www that can help make mks better.
+
+
+= Details =
+
+  * http://srchiliteqt.sourceforge.net - A Code Editor where all highlight properties are defined in xml files
